@@ -1,0 +1,9 @@
+<% comment {"only works with jquery_ujs"} %>
+<div id="rails-div">
+    <%= link_to 'Rails Trigger', test_path, id: "rails", remote: true %>
+    <div id="rails-results"></div>
+</div>
+<div id="json-div">
+    <button id="json">JSON request</button>
+    <div id="json-results"></div>
+</div>

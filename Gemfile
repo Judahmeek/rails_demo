@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
 
-gem 'rails', '4.2.4'
+gem 'rails'
+gem 'rails_12factor', '0.0.2'
 gem 'pg'
 gem 'will_paginate'
 gem 'sass-rails', '~> 5.0'
