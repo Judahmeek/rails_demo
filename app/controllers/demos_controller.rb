@@ -1,8 +1,8 @@
 class DemosController < ApplicationController
-    def show
+    def test
         respond_to do |format|
-            format.json { render json: "this totally worked", status: "json request successfull", success: true }
-            format.js   {}
+            format.json { render json: {'result'=>"json request successful"} }
+            format.js   { render json: {'result'=>"js request successful"} }
         end
     end
 end
